@@ -1,0 +1,25 @@
+# config.yaml
+BLOCKCHAIN_DATA_FILE: "blockchains.json"
+CHROMA_DB_DIR: "./chroma_db"
+MODEL_NAME: "phi3:mini"
+LOG_LEVEL: "INFO"
+MAX_HISTORY_ENTRIES: 100
+HISTORY_FILE: "conversation_history.json"
+
+# Web Search
+SEARCH_TIMEOUT: 8
+SEARCH_MAX_RESULTS: 3
+
+# NER Model
+NER_MODEL_PATH: "./models/blockchain_ner_en"
+USE_CUSTOM_NER: true
+
+# RAG
+EMBEDDING_MODEL: "sentence-transformers/all-MiniLM-L6-v2"
+CHUNK_SIZE: 500
+CHUNK_OVERLAP: 100
+
+# Ollama
+OLLAMA_KEEP_ALIVE: "5m"
+OLLAMA_TEMPERATURE: 0.3
+OLLAMA_TOP_P: 0.9

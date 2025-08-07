@@ -1,0 +1,23 @@
+# Dossiers générés automatiquement
+chroma_db/
+models/blockchain_ner_en/
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+
+# Environnement virtuel
+venv/
+env/
+venv311/
+
+# Fichiers de log
+*.log
+
+# Fichiers de sauvegarde
+*.swp
+*~
