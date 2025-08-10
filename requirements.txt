@@ -12,13 +12,14 @@ langchain-core==0.3.72
 langchain-community==0.3.27
 langchain-ollama==0.3.6
 langchain-huggingface==0.1.2
-langchain-chroma==0.3.6
+langchain-chroma
 langchain-text-splitters==0.3.9
 
 # Vector DB and embeddings
 chromadb==0.5.15
 sentence-transformers==3.0.1
-huggingface-embeddings  # (if needed – not on PyPI, must be in extra pip line if custom)
+langchain-huggingface==0.1.2
+sentence-transformers==3.0.1
 
 # NLP & Search
 spacy==3.7.2
